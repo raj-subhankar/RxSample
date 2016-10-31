@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         public void onCompleted() {}
         public void onError(Throwable e) {}
         public void onNext(String s) {
-            Toast.makeText(context, s, Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, s, Toast.LENGTH_LONG).show();
         }
     };
 
